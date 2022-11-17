@@ -180,8 +180,8 @@ public class GildedRoseTest {
 				int quality = items.get(0).getQuality();
 				int sellin = items.get(0).getSellIn();
 				
-				assertEquals("Sulfuras changes", 78, quality);
-				assertEquals("Sulfuras changes", -1, sellin);
+				assertEquals("Sulfuras changes", 78, quality); //this test doesn't work properly
+				assertEquals("Sulfuras changes", -1, sellin); //this test doesn't work properly
 	}
 	
 	@Test
